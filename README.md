@@ -15,15 +15,15 @@ keyboardAgents.py  :Keyboard interfaces to control Pacman
 layout.py          :Code for reading layout files and storing their content    
 
 RUNNING THIS PROJECT:    
-Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search
-Python pacman.py –l/--layout  type of maze defined in one of files 
-                                  -p/--pacman searchAgent defined searchAgent,py    
-                                   -a                    Argument passed to the search agent above
-                                   – h                  list of arguments that can be passed to pacman.py
+Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search  
+Python pacman.py –l/--layout  type of maze defined in one of files   
+                                  -p/--pacman searchAgent defined searchAgent,py      
+                                   -a                    Argument passed to the search agent above  
+                                   – h                  list of arguments that can be passed to pacman.py  
 
-Eg
-Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search
-python pacman.py run pacmn game    
+Eg  
+Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search  
+python pacman.py--> run pacmn game      
 python pacman.py --l testMaze –p GoWestAgent--> run pacman.py for test maze and agent is GoWestAgent(Reflex agent)    
 python pacman.py --l tinyMaze –p GoWestAgent--> run pacman.py for tiny maze and search agent is GoWestAgent(Reflex agent                                                          python pacman.py -l tinyMaze -p SearchAgent --> run pacman.py for tiny maze and search agent is “SearchAgent” and pass     
                                               depth first search as argument(default argument as per code in SearchAgent class)  
