@@ -1,7 +1,7 @@
 # PACMAN-AUTOMATION
 Pacman search agent using depth-first search, breadth-first search, uniform cost search, and A* search algorithm for "4" types of mazes.
 
-FILES IN THE PROJECT  
+***FILES IN THE PROJECT***  
 pacman.py         :The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.  
 game.py           :The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.  
 Util.py           :Data structures in python  
@@ -14,7 +14,7 @@ ghostAgents.py     :Agents to control ghosts
 keyboardAgents.py  :Keyboard interfaces to control Pacman  
 layout.py          :Code for reading layout files and storing their content    
 
-RUNNING THIS PROJECT:    
+***RUNNING THIS PROJECT:***    
 python pacman.py –l/--layout  -->type of maze defined in one of files     
  python pacman.py-p/--pacman --> searchAgent defined searchAgent,py        
 python pacman.py -a           -->Argument passed to the search agent above    
