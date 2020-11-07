@@ -15,11 +15,10 @@ keyboardAgents.py  :Keyboard interfaces to control Pacman
 layout.py          :Code for reading layout files and storing their content    
 
 RUNNING THIS PROJECT:    
-Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search  
-Python pacman.py –l/--layout  type of maze defined in one of files   
-                                  -p/--pacman searchAgent defined searchAgent,py      
-                                   -a                    Argument passed to the search agent above  
-                                   – h                  list of arguments that can be passed to pacman.py  
+python pacman.py –l/--layout  -->type of maze defined in one of files     
+ python pacman.py-p/--pacman --> searchAgent defined searchAgent,py        
+python pacman.py -a           -->Argument passed to the search agent above    
+python pacman.py – h          -->list of arguments that can be passed to pacman.py    
 
 Eg  
 Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search  
