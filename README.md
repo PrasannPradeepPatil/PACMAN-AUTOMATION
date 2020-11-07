@@ -24,15 +24,15 @@ Python pacman.py –l/--layout  type of maze defined in one of files
 Eg
 Cd C:\Users\DELL\Desktop\AI\Pycharm Codes\search
 python pacman.py run pacmn game    
-python pacman.py --l testMaze –p GoWestAgent--> run pacman.py for test maze and agent is GoWestAgent(Reflex agent)  
-python pacman.py --l tinyMaze –p GoWestAgent--> run pacman.py for tiny maze and search agent is GoWestAgent(Reflex agent                                                          python pacman.py -l tinyMaze -p SearchAgent --> run pacman.py for tiny maze and search agent is “SearchAgent” and pass   
-                                              depth first search as argument(default argument as per code in SearchAgent class)
-python pacman.py -l MediumMaze -p SearchAgent--> run pacman.py for Medium maze and search agent is “SearchAgent” and  
-                                                 pass depth first search as argument(default argument as per code in SearchAgent class)  
-python pacman.py -l BigMaze -z .5 -p SearchAgent--> run pacman.py forBig  maze and search agent is “SearchAgent and pass 
-                                                   depth first search as argument(default argument as per code in SearchAgent class)  
-python pacman.py -l tinyMaze -p SearchAgent -a fn=bfs--> run pacman.py for tiny maze and search agent is “SearchAgent and 
-                                                        pass breadth first search as argument to Search Agent  
+python pacman.py --l testMaze –p GoWestAgent--> run pacman.py for test maze and agent is GoWestAgent(Reflex agent)    
+python pacman.py --l tinyMaze –p GoWestAgent--> run pacman.py for tiny maze and search agent is GoWestAgent(Reflex agent                                                          python pacman.py -l tinyMaze -p SearchAgent --> run pacman.py for tiny maze and search agent is “SearchAgent” and pass     
+                                              depth first search as argument(default argument as per code in SearchAgent class)  
+python pacman.py -l MediumMaze -p SearchAgent--> run pacman.py for Medium maze and search agent is “SearchAgent” and    
+                                                 pass depth first search as argument(default argument as per code in SearchAgent class)    
+python pacman.py -l BigMaze -z .5 -p SearchAgent--> run pacman.py forBig  maze and search agent is “SearchAgent and pass   
+                                                   depth first search as argument(default argument as per code in SearchAgent class)    
+python pacman.py -l tinyMaze -p SearchAgent -a fn=bfs--> run pacman.py for tiny maze and search agent is “SearchAgent and   
+                                                        pass breadth first search as argument to Search Agent    
 
 
 
